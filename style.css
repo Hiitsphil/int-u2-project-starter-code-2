@@ -3,8 +3,9 @@ h1 {
     text-align:center;
 }
 
-header h2{
+.header h2{
     text-align:center;
+    width:100%;
 }
 
 h1,h2,p,h3,h4,h5,h6{
@@ -13,7 +14,7 @@ h1,h2,p,h3,h4,h5,h6{
 
 .body-text{
     color:black;
-
+    font-size:25px;
 }
 #graduation{
     border-radius:10px;
@@ -52,16 +53,19 @@ h1,h2,p,h3,h4,h5,h6{
 
 
 .image-cont img{
-    width:75%;
+    width:86%;
 }
 
-#body-one p{
+#body-one .list-stats, #body-two .list-stats, #body-three .list-stats{
     color:black;
    /* border:solid; */
-    width:50%;
+    width:65%;
     justify-content: flex-start;
-    margin-top:15%;
+    margin-top:25px;
+    line-height:55px;
+    font-size: 20px;
 }
+
 
 /* The code below centers all images on the page and gives them a width of 400px. */
 img {
@@ -71,7 +75,7 @@ img {
   width:auto;
 }
 .header{
-    background:rgba(10, 10, 26, .95);
+    background:rgba(10, 10, 26, 0.521);
     border-radius: 15px;
     padding-bottom: 15px;
 }
@@ -84,10 +88,10 @@ body{
     background-size:cover;
 }
 
+
 /* The code below aligns all the sections horizontally on the bottom. */
-.section-container {
+/*.section-container {*/
     /*display:flex; */
-    /*justify-content:space-between; */
-}
+    /*justify-content:space-between; } */
 
 /* The code below a solid black border to section and puts space between them (the margin). */
