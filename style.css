@@ -31,7 +31,7 @@ h1,h2,p,h3,h4,h5,h6{
 }
 
 #body-two{
-    background-color: rgba(131, 175, 211, 0.767);
+    background-color: rgba(131, 175, 211, 0.567);
 }
 
 #body-three{
@@ -42,7 +42,11 @@ h1,h2,p,h3,h4,h5,h6{
     background-color: rgba(203, 228, 158, 0.767);
 }
 
-#body-one, #body-two, #body-three{
+#body-four{
+    background-color: rgba(103, 233, 17, 0.664);
+}
+
+#body-one, #body-two, #body-three, #body-four{
     width:98.4%;
     display:flex;
     justify-content: space-between;
@@ -56,7 +60,7 @@ h1,h2,p,h3,h4,h5,h6{
     width:86%;
 }
 
-#body-one .list-stats, #body-two .list-stats, #body-three .list-stats{
+#body-one .list-stats, #body-two .list-stats, #body-three .list-stats, #body-four .list-stats{
     color:black;
    /* border:solid; */
     width:65%;
